@@ -1,0 +1,273 @@
+/*=====================
+        Fonts
+=====================*/
+
+@font-face {
+    font-family: Athene;
+    src: url(../fonts/Athene.otf);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*=====================
+    General Styles
+=====================*/
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1440px;
+  }
+
+  h1{
+    Font-family: Athene;
+  }
+
+  h2{
+    font-family: Athene;
+  }
+
+  p, li, h6{
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  td{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+  }
+
+/*=====================
+        Sticky DIV
+=====================*/
+
+  body>div:first-child{
+    padding:1vh 0px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 5vh;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/*=====================
+        Title Page
+=====================*/
+
+header{
+    text-align: center;
+}
+
+header>div>span:first-child{
+    margin-right: 35vw;
+}
+
+header>div>span:nth-last-child(1){
+    margin-left: 35vw;
+}
+
+header>div:nth-last-of-type(-n+2) {
+    border-bottom: 1px solid #042A5A;
+    margin: 0 10vw;
+}
+
+header>div>h1{
+    font-weight: normal;
+    font-size: 160px;
+    color: #042A5A;
+}
+
+header>img{
+    margin: 3vh;
+}
+
+header>p{
+    color:#042A5A;
+    margin-right: 4vw;
+    font-size: 24px;
+}
+
+header>p::nth-word(1){
+    font-family: Athene;
+    font-weight: bold;
+}
+
+/*=====================
+        Release
+=====================*/
+
+main>section:first-child{
+    background: #F4C4C4;
+}
+
+main>section:first-child>h6{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8vh 0 3vh 5vw;
+}
+
+main>section:first-child>h2{
+    font-size: 160px;
+}
+
+main>section:first-child>article>p{
+    padding:3vh 5vw 0 60vw; 
+}
+
+table{
+    margin-left: 47vw;
+    margin-top: 10vh;
+}
+
+table>thead>tr>td{
+    text-align: right;
+    border-bottom: 1px solid black;;
+}
+
+tbody>tr{
+    border-bottom: 1px solid black;
+}
+
+tbody>tr>td:nth-of-type(1){
+    padding: 2vh 2vw 2vh 0;
+    font-size: 14px;
+}
+
+tbody>tr>td:nth-of-type(2){
+    font-size: 21px;
+}
+
+tbody>tr>td:nth-last-child(1){
+    text-align: right;
+    font-size: 14px;
+    padding-left: 25vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+/*=====================
+        WORKS
+=====================*/
+
+main>section:nth-last-child(1){
+    background: #DEB873;
+    color: #7D2222;
+}
+
+main>section:nth-last-child(1)>h6{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8vh 5vw 3vh 0vw;
+    text-align: right;    
+}
+
+main>section:nth-last-child(1)>h2{
+    font-size: 160px;
+    text-align: right;
+    font-weight: normal;
+}
+
+main>section:nth-last-child(1)>article>p{
+    margin: 0 58.5vw 0 6.5vw;
+}
+
+/*=====Rodrigo Marcotto=====*/
+
+main>section:nth-last-child(1)>article>div:nth-of-type(1){
+    background: url(../img/bg-marconatto-1.jpg) right/contain no-repeat;
+    margin: 20vh 6.5vw 0 0;
+    height: 47.5vh;
+}
+
+main>section:nth-last-child(1)>article>div:nth-of-type(1)>h2{
+    font-size: 64px;
+    font-weight: normal;
+    margin-left: 6.5vw;
+}
+
+/*=====Käthe Kollwitz=====*/
+
+main>section:nth-last-child(1)>article>div:nth-of-type(2){
+    background: url(../img/kathe_cover-1.jpg) left/contain no-repeat;
+    margin: 20vh 0 0 6.5vw;
+    height: 47.5vh;
+}
+
+main>section:nth-last-child(1)>article>div:nth-of-type(2)>h2{
+    font-size: 64px;
+    font-weight: normal;
+    margin-right: 6.5vw;
+    text-align: right;
+}
+
+/*=====Victor Folio 2019"=====*/
+
+main>section:nth-last-child(1)>article>div:nth-of-type(3){
+    background: url(../img/bg-nicole-1.jpg) right/contain no-repeat;
+    margin: 20vh 6.5vw 0 0;
+    height: 47.5vh;
+}
+
+main>section:nth-last-child(1)>article>div:nth-of-type(3)>h2{
+    font-size: 64px;
+    font-weight: normal;
+    margin-left: 6.5vw;
+}
+
+/*=====Bored of Authority=====*/
+
+main>section:nth-last-child(1)>article>div:nth-of-type(4){
+    background: url(../img/boa_cover-1.jpg) left/contain no-repeat;
+    margin: 20vh 0 0 6.5vw;
+    height: 47.5vh;
+}
+
+main>section:nth-last-child(1)>article>div:nth-of-type(4)>h2{
+    font-size: 64px;
+    font-weight: normal;
+    margin-right: 6.5vw;
+    text-align: right;
+}
+
+main>section:nth-last-child(1)>article{
+    padding-bottom: 20vh;
+}
+
+/*=====================
+        Contact
+=====================*/
+
+footer{
+    background: #D2D2D2;
+    color: #388883;
+
+
+}
+
+footer>h6{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8vh 0 3vh 5vw;
+}
+
+footer>h2{
+    font-size: 160px;
+    font-weight: normal;
+}
+
+footer>p{
+    margin: 2vh 35vw;
+    font-size: 24px;
+}
+
+footer>ul{
+    list-style: none;
+    text-align: right;
+    padding: 5vh 6.5vw 6.5vw 0;
+}
+
+footer>ul>li{
+    font-size: 24px;
+    padding-top: 2vh;
+}
